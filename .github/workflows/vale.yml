@@ -23,7 +23,7 @@ jobs:
     # two values drifting apart would change what gets linted with nothing
     # in review showing it.
     with:
-      glob: '!{_vendor,layouts,node_modules,public,vendor}/**'
+      glob: '!{_vendor,layouts,node_modules,public,vendor,.specify,specs}/**'
     secrets:
       REPO_ACCESS_APP_CLIENT_ID: ${{ secrets.REPO_ACCESS_APP_CLIENT_ID }}
       REPO_ACCESS_APP_PRIVATE_KEY: ${{ secrets.REPO_ACCESS_APP_PRIVATE_KEY }}
