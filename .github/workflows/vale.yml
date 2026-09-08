@@ -8,6 +8,14 @@ name: Vale
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - '.github/CODEOWNERS'
+      - '.github/dependabot.yml'
+      - '.github/workflows/**'
+      - '.gitattributes'
+      - '.gitignore'
+      - '.markdownlint.yml'
+      - '.terraform-docs.yml'
   pull_request:
   # A run that fails at workflow load has no jobs and cannot be re-run, so
   # without this the only way to retry after such a failure is a new push.
