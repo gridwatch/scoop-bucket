@@ -1,0 +1,22 @@
+{
+    "version": "20260925-1",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/gridwatch/backbrief/releases/download/v20260925-1/backbrief_20260925-1_windows_amd64.zip",
+            "bin": [
+                "backbrief.exe"
+            ],
+            "hash": "714a7c7b36a274cb03ed5d64207967904c14603c537f207b9d3c8d14e711923c"
+        },
+        "arm64": {
+            "url": "https://github.com/gridwatch/backbrief/releases/download/v20260925-1/backbrief_20260925-1_windows_arm64.zip",
+            "bin": [
+                "backbrief.exe"
+            ],
+            "hash": "92ba38e5419844c891c39d14f8b911b2798f05d7f2f71785425a29db70900aa7"
+        }
+    },
+    "homepage": "https://github.com/gridwatch/backbrief",
+    "license": "Apache-2.0",
+    "description": "Repository status board for the GRIDWATCH org"
+}
