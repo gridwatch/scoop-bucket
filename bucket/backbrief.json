@@ -1,19 +1,19 @@
 {
-    "version": "20260928-2",
+    "version": "20260928-3",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gridwatch/backbrief/releases/download/v20260928-2/backbrief_20260928-2_windows_amd64.zip",
+            "url": "https://github.com/gridwatch/backbrief/releases/download/v20260928-3/backbrief_20260928-3_windows_amd64.zip",
             "bin": [
                 "backbrief.exe"
             ],
-            "hash": "c0f68ebbbd8fc54a9baa353ea0abcb6a61a0d17b98d280a9d099dea2e758659c"
+            "hash": "d01e854e37911d7e33372a96e24c71bb3c80deb1acb7c17f3c74e087e978fb50"
         },
         "arm64": {
-            "url": "https://github.com/gridwatch/backbrief/releases/download/v20260928-2/backbrief_20260928-2_windows_arm64.zip",
+            "url": "https://github.com/gridwatch/backbrief/releases/download/v20260928-3/backbrief_20260928-3_windows_arm64.zip",
             "bin": [
                 "backbrief.exe"
             ],
-            "hash": "f37374333a8fee4113473b918552131634ed04d47cbc0669b00bcc44e78978f2"
+            "hash": "a1f878e674838c0e0203fafad68c5637cfea734ef1d2e7899fb311412ee92b4e"
         }
     },
     "homepage": "https://github.com/gridwatch/backbrief",
